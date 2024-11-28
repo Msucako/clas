@@ -1,0 +1,28 @@
+class Kasa:
+    ekran_k="NVİDİA 1050"
+    ıslemcı="İntel İ5"
+    ram="16 GB"
+    power="500W"
+
+    def aç(self):
+        print(f"Bilgisayar açılıyor")
+
+    def kapa(self):
+        print(f"Bilgisayar Kapanıyor")
+
+    def kasa_about(self):
+        print(f"Kasanın Ram kapasitesi",self.ram,"Kasanın işlemcisi",self.ıslemcı,"Kasanın güç kapasitesi",self.power,)
+class Kasa_2:
+    ekran_k="NVİDİA 4060"
+    ıslemcı="İntel İ7"
+    ram="32 GB"
+    power="1000W"
+
+    def aç(self):
+        print(f"Bilgisayar açılıyor")
+
+    def kapa(self):
+        print(f"Bilgisayar Kapanıyor")
+
+    def kasa_about(self):
+        print(f"Kasanın Ram kapasitesi",self.ram,"Kasanın işlemcisi",self.ıslemcı,"Kasanın güç kapasitesi",self.power,)
